@@ -1077,7 +1077,7 @@ to{
 
 .card {
     width: 500px;
-    height:100%;
+    height:450px;
     background-color: var(--card);
     border-radius: 0px;
 }
@@ -1240,7 +1240,7 @@ ul li a {
 
 .card {
     width: 600px!important;
-    height:85%;
+    height:380px;
 }
     
 .fleches { 
@@ -1364,7 +1364,7 @@ nav {
 
 .card {
     width: 550px!important;
-    height:90%!important;
+
 }
 
 .bloc_txt p {
@@ -2570,160 +2570,8 @@ footer {
 
 
 
-/* 
-@media only screen and (max-height: 719px) { */
-
-/* ABOUT */
-
-/* .about {
-    margin-top: 100px ;
-}
-
-.photo_moi {
-    width: 60%;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-.photo_moi h1 {
-    font-size: 1.7rem;
-}
-        
-.photo_moi img {
-    width: 280px;  
-}
-       
-.card {
-    width: 450px!important;
-    height:370px!important;
-}
-        
-.bloc_txt, .bloc_txt_contact {
-    height: 80%!important;
-}
-        
-.bloc_txt p {
-    font-size: 0.9rem!important;
-}
-} */
 
 
 
 
-@media only screen and (max-height: 640px) {
 
-/* ABOUT */
-
-.photo_moi {
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-    
-.photo_moi img {
-    width: 200px;  
-}
-    
-.card {
-    width: 250px!important;
-    height: 490px!important;
-}
-
-.fleches {
-    height: 20px;
-    padding: 6px 10px 0px 10px;
-}
-
-.fleches img {
-    width: 0.5rem;
-    height: 0.5rem;
-}
-
-.boite_titre {  
-    width: 170px;
-    height: 30px;
-    margin-left: 6px;
-}
-
-.boite_titre h2 {
-    font-size: 1rem;  
-}
-
-.option_card img {
-    width: 1rem;
-}
-
-.bloc_txt {
-    height: 85%!important;
-}
-    
-.bloc_txt p {
-    font-size: 0.8rem!important;
-}
-    
-
-/* CONTACT */
-
-.container_card_contact {
-    height: 27vh;
-    margin: 70px 0;
-}
-
-.bloc_txt_contact {
-    height: 80%!important;
-}
-
-.bloc_txt_contact a {
-    height: 65px;
-}
-}
-
-
-
-
-@media only screen and (max-height: 620px) {
-
-/* ABOUT */
-
-.about {
-    margin-top: 50px;
-}
-
-.photo_moi {
-    width: 60%;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-.photo_moi h1 {
-    font-size: 1.7rem;
-}
-        
-.photo_moi img {
-    width: 280px;  
-}
-        
-.card {
-    width: 450px!important;
-    height: 490px!important;
-}
-        
-.bloc_txt {
-    height: 83%!important;
-}
-        
-.bloc_txt p {
-    font-size: 0.9rem!important;
-}
-
-
-/* CONTACT */
-
-.container_card_contact {
-    height: 20vh!important;
-}
-
-.bloc_txt_contact {
-    height: 80%!important;
-    padding-top: 25px; 
-}
-}
