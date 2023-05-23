@@ -12,8 +12,8 @@
 :root {
     --vague : #B28DFF;
     --card: #352f3d;
-    --titre: lobster two;
-    --police: myriad pro;
+    --titre: 'Lobster Two', cursive;
+    --police: 'EB Garamond', serif;
 }
 
 
@@ -50,6 +50,7 @@
     border: 2px solid #ffffff;
     border-radius: 40px;
     font-family:var(--police);
+    font-size: 2rem!important;
     font-weight: 700;
     color: #b98ff6;
     background: #5a5061;
@@ -375,7 +376,7 @@ to{
 
 .bloc_txt p {
     text-align: justify-all;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: var(--police);
 }
 
@@ -383,6 +384,7 @@ to{
     width: 250px;
     height: 40px;
     margin: 30px 0;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,6 +417,7 @@ to{
 }
 
 .btn a{
+    font-size: 1.1rem;
     color: var(--vague);
     width: 100%;
 }
@@ -479,8 +482,10 @@ to{
 /* PROJET */
 
 .present_projet h1 {
+    font-family: var(--titre);
     margin-top: 120px;
     text-align: center;
+
 }
 
 .card_container_projet {
@@ -530,6 +535,7 @@ to{
     margin-top: 5%;
     text-align: center;
     color: var(--vague);
+ 
 }
 
 .card_container_projet .card_projet:nth-child(1) h2 {
@@ -1015,7 +1021,8 @@ to{
 /* ABOUT */
 
 .about {  
-    margin-top:10vh;  
+    height: 70vh;
+    margin-top:15vh;  
 }
 
 
@@ -1210,6 +1217,10 @@ ul li a {
 
 
 /* ABOUT */
+.about {  
+    height: 50vh;
+    margin-top:10vh; 
+}
 
 .photo_moi {
     width: 40%;
@@ -1346,6 +1357,10 @@ nav {
 }
 
 /* ABOUT */
+
+.about {  
+    height: 70vh;
+}
 
 .card {
     width: 550px!important;
@@ -2195,6 +2210,7 @@ ul li a  {
 
 .container_card_contact {
     height: 40vh;
+    margin: 50px 0;
 }
 
 .bloc_txt_contact {
@@ -2445,7 +2461,6 @@ footer {
 .photo_moi {
     width: 65%!important;
     margin-top: 0px;
-    margin-bottom: 30px;
 }
 
 .photo_moi h1 {
@@ -2487,12 +2502,13 @@ footer {
     width: 1rem;
 }
 
-.bloc_txt p {
-    font-size: 0.8rem!important;
-}
 
 
 /* CONTACT */
+
+.photo_moi_contact {
+    margin-bottom: 50px!important;
+}
 
 .container_card_contact {
     height: 53vh;
@@ -2553,12 +2569,12 @@ footer {
 
 
 
-
-@media only screen and (max-height: 719px) {
+/* 
+@media only screen and (max-height: 719px) { */
 
 /* ABOUT */
 
-.about {
+/* .about {
     margin-top: 100px ;
 }
 
@@ -2588,12 +2604,12 @@ footer {
 .bloc_txt p {
     font-size: 0.9rem!important;
 }
-}
+} */
 
 
 
 
-@media only screen and (max-height: 670px) {
+@media only screen and (max-height: 640px) {
 
 /* ABOUT */
 
