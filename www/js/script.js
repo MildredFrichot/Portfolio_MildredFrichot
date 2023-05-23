@@ -6,7 +6,7 @@ window.onload = function()
   setTimeout(function()
   {
     document.getElementById("div").style.display = "flex";
-  }, 2700);
+  }, 2500);
 }
 
 
