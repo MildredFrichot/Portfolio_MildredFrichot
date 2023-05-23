@@ -2036,13 +2036,13 @@ ul li:nth-child(7) {
 }
 
 .card_projet {
-   width: 260px;
-   height: 60%;
+   width: 240px;
+   height: 55%;
    border-radius: 15px;
 }
 
 .card_projet div img {  
-    height: 80%;
+    height: 80%!important;
 }
 
 .card_container_projet .card_projet:nth-child(1) h2 {
@@ -2054,7 +2054,7 @@ ul li:nth-child(7) {
 }
 
 .card_container_projet .button-container_projet {
-    width: 255px;
+    width: 235px;
 }
 
 .video_2 video {
@@ -2243,9 +2243,10 @@ ul li a  {
 }
 
 .card_projet {
-   width: 200px;
-   height: 50%;
-}
+    width: 200px;
+    height: 55%;
+    border-radius: 15px;
+ }
 
 .card_projet div img {  
     height: 70%;
