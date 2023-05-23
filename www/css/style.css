@@ -1364,7 +1364,6 @@ nav {
 
 .card {
     width: 550px!important;
-
 }
 
 .bloc_txt p {
@@ -2194,7 +2193,7 @@ ul li a  {
 
 .card {
     width: 320px!important;
-    height: 470px!important;;
+    height: 470px!important;
 }
 
 .bloc_txt p {
@@ -2475,9 +2474,15 @@ footer {
     width: 200px;  
 }
 
+
+
 .card {
-    width: 250px!important;
-    height: 490px!important;;
+    width: 270px!important;
+    height: 540px!important;
+}
+
+.bloc_txt {
+    height: 88%!important;
 }
 
 .fleches {
@@ -2513,10 +2518,6 @@ footer {
 
 .container_card_contact {
     height: 53vh;
-}
-
-.card {
-    height: 100%!important;  
 }
 
 .bloc_txt_contact {
