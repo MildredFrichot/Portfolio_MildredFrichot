@@ -2138,7 +2138,7 @@ ul li:nth-child(7) {
 
 @media only screen and (max-width: 470px) {
 
-  
+
 /* HEADER */
 
 nav {
@@ -2413,6 +2413,11 @@ ul li a  {
 
 
 @media only screen and (max-width: 376px) {
+
+    
+.btn_entrer {
+    margin-top: 65rem;
+}
 
 /* NAV */
 
