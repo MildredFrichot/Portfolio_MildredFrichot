@@ -443,7 +443,7 @@ to{
 }
 
 .bloc_txt_contact a {
-    width: 360px;
+    width: 380px;
     height: 80px;
     padding-left: 15px;
     display: flex;
@@ -973,7 +973,10 @@ to{
     margin-top: -50px;
 }
 
-
+.articles article:nth-child(3) .explain p a {
+    text-decoration: underline solid var(--vague)!important;
+    color: var(--vague);
+}
 
 /* VIDEO */
 
@@ -2569,15 +2572,3 @@ footer {
 #prempro .explain, #after .explain {
     width: 90%;
 }
-}
-
-
-
-
-
-
-
-
-
-
-

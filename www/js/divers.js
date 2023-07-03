@@ -213,3 +213,11 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+let guidesy = document.getElementById("guidesy");
+guidesy.onclick = function(e){
+  e.preventDefault();
+  location.href="https://mildredfrichot.github.io/Portfolio_MildredFrichot/webdesign.html#appli";
+}
